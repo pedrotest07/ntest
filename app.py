@@ -45,7 +45,7 @@ def home():
 
 @app.route('/webhook', methods= ["GET", "POST"])
 def index():
-    VERIFY_TOKEN = "128fea16-bef2-4f86-8402-2fbb9b9ed70e"
+    VERIFY_TOKEN = "hello2023"
     if request.methode == 'GET':
         if 'hub.mode' in request.args:
             mode = request.args.get('hub.mode')
@@ -75,7 +75,7 @@ def index():
 
 
     if request.methode == 'POST':
-        VERIFY_TOKEN = "128fea16-bef2-4f86-8402-2fbb9b9ed70e"
+        VERIFY_TOKEN = "hello2023"
 
         if 'hub.mode' in request.args:
             mode = request.args.get('hub.mode')
