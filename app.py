@@ -7,7 +7,7 @@ import config
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = '51dc30af-b37c-4b8a-90ea-4f32d6be3c62'
+app.config['SECRET_KEY'] = '43c2053c39026532e80ea28a09166231'
 
 
 #Function to access the Sender API
